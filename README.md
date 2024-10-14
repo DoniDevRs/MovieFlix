@@ -31,7 +31,7 @@ MovieFlix is an Application that allows users to view information about movies a
 ## Screenshots
 |Intro|Movies Screen|Movie Detail Screen|Favorites Screen| 
 |:-:|:-:|:-:|:-:|
-|<img src="Intro.png" width="250"/>|<img src="Home.png" width="250"/>|<img src="MovieDetails2.png" width="250"/>|<img src="Favorites.png" width="250"/>|
+|<img src="Images/Intro-left.png" width="250"/>|<img src="Images/Home.png" width="250"/>|<img src="Images/MovieDetails01.png" width="250"/>|<img src="Images/Favorites.png" width="250"/>|
    
 ## Implementation Details
 
@@ -68,4 +68,5 @@ https://github.com/user-attachments/assets/5f73f130-0b25-4463-a384-08e4080967ef
 - Open `MovieFlix.xcworkspace` in XCode
   - Select Target MovieFlix (pre-selected)
   - Choose simulator/device of choice
+  - It's necessary to generate an apiKey on The Movies DataBase website and insert it in the NetworkingOperation file.
 - Click on Run
